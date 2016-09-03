@@ -1,0 +1,51 @@
+# --- First fluid settings file ---
+fluidSettingsFile_1 = ./settings/FirstFluidSettings.settings
+
+# --- Second fluid settings file ---
+fluidSettingsFile_2 = ./settings/SecondFluidSettings.settings
+
+# --- Obstacle settings file ---
+obstacleFile = ./settings/ObstacleTopography.settings
+
+# --- Neighbor search radius ---
+coreRadius = 4.0
+
+# --- Leao-frog integration time step ---
+gamma = 0.05
+
+# --- Collision damping ---
+damping = 0.3
+
+# --- Scene boundaries (min & max points) ---
+boundaryMin = (-24.0, -24.0, -24.0)
+boundaryMax = (24.0, 24.0, 24.0)
+
+# --- Gravity vector ---
+gravity = (0.0, -5.0, 0.0)
+
+# --- Obstacle porosity —
+porosity = 0.70
+
+# --- Search grid cell side ---
+cellSide = 4.0
+
+# --- Scene ---
+# Options: 
+# 1 = both fluids over the obstacle
+# 2 = first fluid over the obstacle, second fluid inside its pores
+scene = 1
+
+# --- Is the obstacle turned on? —-
+obstacle = true
+
+# --- The following settings are vailable only for scene 2   ---
+# --- Spawn boundaries (min & max) ---
+spawnMin = (-24.0, 24.0, -24.0)
+spawnMax = (-12.0, 24.0, 24.0)
+
+# --- Spawn velocity ---
+spawnVel = (0.0, 0.0, 0.0)
+
+# --- Spawn frequency ---
+spawnFreq = 5
+

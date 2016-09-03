@@ -1,0 +1,74 @@
+# --- Window width (in pixels) --- #
+width = 620
+ 
+# --- Window height (in pixels) --- #
+height = 620
+
+# --- Window X position (in pixels) --- #
+posX = 10
+ 
+# --- Window Y position (in pixels) --- #
+posY = 30
+
+# --- First light source --- #
+# Ambient RGBA #
+light0AmbR = 0.1 
+light0AmbG = 0.1 
+light0AmbB = 0.1  
+light0AmbA = 1.0
+
+# Diffuse RGBA #
+light0DifR = 0.4 
+light0DifG = 0.4 
+light0DifB = 0.4  
+light0DifA = 1.0
+ 
+# Specular RGBA #
+light0EspR = 0.4 
+light0EspG = 0.4 
+light0EspB = 0.4  
+light0EspA = 1.0
+
+# Position XYZW #
+light0PosX = 1.0 
+light0PosY = 1.0 
+light0PosZ = 1.0  
+light0PosW = 0.0
+
+# --- Second light source --- #
+# Ambient RGBA #
+light1AmbR = 0.1 
+light1AmbG = 0.1 
+light1AmbB = 0.1  
+light1AmbA = 1.0
+
+# Diffuse RGBA #
+light1DifR = 0.4 
+light1DifG = 0.4 
+light1DifB = 0.4  
+light1DifA = 1.0
+
+# Specular RGBA #
+light1EspR = 0.4 
+light1EspG = 0.4 
+light1EspB = 0.4  
+light1EspA = 1.0
+
+# Position XYZW #
+light1PosX =-1.0 
+light1PosY = 1.0 
+light1PosZ = 1.0  
+light1PosW = 0.0
+
+# --- Material --- #
+materialShi = 2.5
+
+# ---  Render  --- #
+# Show axes? #
+showAxis = false 
+
+# Show box? #
+showBox  = false
+
+# Show color map? #
+showMap  = true

@@ -1,0 +1,15 @@
+# --- Fluid density ---
+mass = 40
+
+# --- Fluid viscosity ---
+viscosity = 80
+
+# ——- Gas constant ——-
+gasConstant = 80
+
+# ——- Fluid volume dimensions ——-
+volumeMin = (-24.0, 0.0, -24.0)
+volumeMax = (24.0, 24.0, 24.0)
+
+# ——- Spacing between particles ——-
+spacing = (2.0, 2.0, 2.0)

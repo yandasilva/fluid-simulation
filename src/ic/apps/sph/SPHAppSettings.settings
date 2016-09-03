@@ -1,0 +1,34 @@
+# --- Color maps --- #
+# Options:
+# MAP_CONSTANT, MAP_GRAYSCALE, MAP_BONE  , MAP_RAINBOW
+# MAP_JET     , MAP_HOT      , MAP_COOL  , MAP_COOPER
+# MAP_SPRING  , MAP_SUMMER   , MAP_AUTUMN, MAP_WINTER
+cmap = MAP_JET
+
+# --- Color map min and max --- #
+cmapMin = 147.49
+cmapMax = 314.43
+
+# --- Render mode ---#
+# Options:
+# Points
+# Smooth
+# Wireframe
+rmode = Wireframe
+
+# --- Path of the scene settings file --- #
+sceneSettingsFile =  ./settings/SceneSettings.settings
+
+# --- Color mode ---#
+# Options:
+# Simple
+# Pressure
+# Velocity
+colorMode = Pressure
+
+# --- Min and max Z to be rendered ---#
+renderMinZ = -12.0
+renderMaxZ = 12.0
+
+# --- Generate stats? (Yes/No) ---#
+generateStats = No
